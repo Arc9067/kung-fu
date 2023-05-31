@@ -12,10 +12,16 @@ const Footer = () => {
           © 2023 PANDA- All Rights Reserved
         </p>
         <div className="flex gap-3 items-center justify-center mt-6 text-primary">
-          <a href="" className="text-4xl hover:text-black">
+          <a
+            href="https://t.me/KungfuPandaEth"
+            className="text-4xl hover:text-black"
+          >
             <TbBrandTelegram />
           </a>
-          <a href="" className="text-4xl hover:text-black">
+          <a
+            href="https://t.me/KungfuPandaEth"
+            className="text-4xl hover:text-black"
+          >
             <FaTwitter />
           </a>
           <a href="" className="text-4xl hover:text-black">
