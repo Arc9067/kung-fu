@@ -1,16 +1,37 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Logo from "../assets/logo.png";
 import Logo3 from "../assets/logo3.png";
 import Logo4 from "../assets/logo4.png";
+import Typed from "typed.js";
 
 const Hero = () => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Kung Fu Panda"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 400,
+      backSpeed: 300,
+      backDelay: 400,
+      showCursor: false,
+      loop: true,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <section className="pt-[150px] w-full">
       <div className="container grid lg:grid-cols-2 gap-y-10 justify-between items-center">
         <article className="flex flex-col gap-8 text-center lg:text-start">
-          <h1 className="text-5xl md:text-7xl font-primary  text-secondary title animate-bounce">
-            Kung Fu Panda
-          </h1>
+          <h1
+            className="text-5xl md:text-7xl font-primary  text-secondary title animate-bounce"
+            ref={el}
+          ></h1>
           <p className="text-3xl">
             Kung Fu Panda Coin: Unleashing Meme-tastic Awesomeness Abstract
           </p>
