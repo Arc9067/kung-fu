@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
+import Logo3 from "../assets/logo3.png";
+import Logo4 from "../assets/logo4.png";
 
 const Hero = () => {
   return (
@@ -12,24 +14,27 @@ const Hero = () => {
           <p className="text-3xl">
             Kung Fu Panda Coin: Unleashing Meme-tastic Awesomeness Abstract
           </p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center text-center items-center md:justify-start font-primary">
-            <a href="" className="bg-secondary text-black py-4 px-6">
-              telegram
+          <div className="flex flex-wrap flex-col md:flex-row gap-4 justify-center text-center items-center md:justify-start font-primary">
+            <a
+              href=""
+              className="bg-secondary flex items-center gap-3 text-black py-4 px-6"
+            >
+              <img src={Logo3} className="w-[2rem]" alt="" /> telegram
             </a>
             <a
               href=""
-              className="bg-black text-white py-4 px-6 transition hover:shadow-inner"
+              className="bg-black text-white flex items-center gap-3 py-4 px-6 transition hover:shadow-inner"
             >
-              twitter
+              <img src={Logo3} className="w-[2rem]" alt="" /> twitter
             </a>{" "}
-            <a href="" className="">
-              dextool
+            <a href="" className="flex items-center gap-3">
+              <img src={Logo4} className="w-[2rem]" alt="" /> dextool
             </a>{" "}
             <a
               href=""
-              className="bg-primary text-white py-4 px-6 transition hover:shadow-inner"
+              className="bg-primary text-white flex items-center gap-3 py-4 px-6 transition hover:shadow-inner"
             >
-              etherscan
+              <img src={Logo3} className="w-[2rem]" alt="" /> etherscan
             </a>
           </div>
         </article>
