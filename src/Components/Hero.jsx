@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="text-3xl">
             Kung Fu Panda Coin: Unleashing Meme-tastic Awesomeness Abstract
           </p>
-          <div className="flex flex-wrap flex-col md:flex-row gap-4 justify-center text-center items-center md:justify-start font-primary">
+          <div className="flex flex-wrap flex-col md:flex-row gap-4 justify-center text-center items-center lg:justify-start font-primary">
             <a
               href=""
               className="bg-secondary flex items-center gap-3 text-black py-4 px-6"

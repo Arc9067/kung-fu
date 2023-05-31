@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Token from "./Components/Token";
+import How from "./Components/How";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <About />
       <Token />
+      <How />
     </div>
   );
 };
