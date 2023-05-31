@@ -35,7 +35,7 @@ const Token = () => {
             </div>
             <footer className="h-2/5 w-full rounded-b flex justify-center items-center">
               <h1 className=" text-center text-3xl font-primary text-primary">
-                1M Supply
+                ownership renounced
               </h1>
             </footer>
           </div>

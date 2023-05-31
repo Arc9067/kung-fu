@@ -32,13 +32,15 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-primary  text-secondary title animate-bounce"
             ref={el}
           ></h1>
-          <p className="text-3xl">
+          <p className="text-3xl" data-aos="fade-right">
             Kung Fu Panda Coin: Unleashing Meme-tastic Awesomeness Abstract
           </p>
           <div className="flex flex-wrap flex-col md:flex-row gap-4 justify-center text-center items-center lg:justify-start font-primary">
             <a
               href=""
               className="bg-secondary flex items-center gap-3 text-black py-4 px-6"
+              data-aos="fade-right"
+              data-aos-duration="500"
             >
               <img src={Logo3} className="w-[2rem]" alt="" /> telegram
             </a>
@@ -54,13 +56,15 @@ const Hero = () => {
             <a
               href=""
               className="bg-primary text-white flex items-center gap-3 py-4 px-6 transition hover:shadow-inner"
+              data-aos="fade-left"
+              data-aos-duration="500"
             >
               <img src={Logo3} className="w-[2rem]" alt="" /> etherscan
             </a>
           </div>
         </article>
         <article>
-          <img src={Logo} alt="" className="md:mx-auto" />
+          <img src={Logo} alt="" className="md:mx-auto" data-aos="zoom-out" />
         </article>
       </div>
     </section>
