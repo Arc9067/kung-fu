@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Token from "./Components/Token";
 import How from "./Components/How";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Token />
       <How />
+      <Footer />
     </div>
   );
 };
