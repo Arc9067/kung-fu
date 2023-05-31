@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap flex-col md:flex-row gap-4 justify-center text-center items-center lg:justify-start font-primary">
             <a
-              href=""
+              href="https://t.me/KungfuPandaEth"
               className="bg-secondary flex items-center gap-3 text-black py-4 px-6"
               data-aos="fade-right"
               data-aos-duration="500"
@@ -45,7 +45,7 @@ const Hero = () => {
               <img src={Logo3} className="w-[2rem]" alt="" /> telegram
             </a>
             <a
-              href=""
+              href="https://twitter.com/kungfupandaeth"
               className="bg-black text-white flex items-center gap-3 py-4 px-6 transition hover:shadow-inner"
             >
               <img src={Logo3} className="w-[2rem]" alt="" /> twitter
